@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "dl-raw-extension",
+    "version": "0.0.1",
+    "icons": {
+        "64": "src/icons/icons8-raw-64.png"
+    },
+    "web_accessible_resources": [{
+      "matches": ["<all_urls>"],
+      "resources": ["src/images/*.png"]
+    }],
+    "action": { "default_popup": "index.html" },
+    "devtools_page": "src/devtools.html"
+}
